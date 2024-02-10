@@ -6,6 +6,18 @@ This tool uses data provided by [Aceship](https://github.com/Aceship/AN-EN-Tags)
 
 The tool does not send input events of any sort, and is currently provided only as a command line tool.
 
+## Features
+- Multi-language recruitment tag identification with optional CUDA support provided by [EasyOCR](https://github.com/JaidedAI/EasyOCR)
+- Automatic capture of emulator content based on window title
+- Tag combination calculation based on [Aceship](https://github.com/Aceship/AN-EN-Tags) data
+- Highest rarity tag guarantee summary
+- Highlighting of priority tags:
+  - Top Operator / 高级资深干员
+  - Senior Operator / 资深干员
+  - Robot / 支援机械
+
+![](docs/example-pt.png)
+
 ## Example output
 ![](docs/example.png)
 
