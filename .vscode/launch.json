@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Default",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "akrecruiter",
+            "justMyCode": true
+        },
+        {
+            "name": "EN/en",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "akrecruiter",
+            "args": ["--window", "EN", "--lang", "en"],
+            "justMyCode": true
+        },
+        {
+            "name": "CN/cn",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "akrecruiter",
+            "args": ["--window", "CN", "--lang", "cn"],
+            "justMyCode": true
+        }
+    ]
+}
